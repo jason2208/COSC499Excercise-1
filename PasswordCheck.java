@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex1{
+public class PasswordCheck{
     public static void main(String[]args){
         //this one will check if the password is longer than 8 digit/character
         Scanner input=new Scanner(System.in);

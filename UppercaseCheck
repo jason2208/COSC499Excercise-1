@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class UppercaseCheck {
+	public static void main(String[]args) {
+		Scanner input=new Scanner(System.in);
+		boolean isGood = false;
+		while(isGood == false) {
+			System.out.println("Type your password.");
+			String password = input.nextLine();
+			isGood = true;
+            if(hasUpperCase(password)==false) {
+				System.out.println("Password must contain at least one upper case letter");
+			isGood=false;
+			}
+            if(isGood==true) {
+				System.out.println("Password has uppercase letter.");
+			}
+        }
+    }
+    public static boolean hasUpperCase(String s) {
+		if(s.toLowerCase().equals(s)) {
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+}

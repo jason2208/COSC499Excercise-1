@@ -7,3 +7,5 @@ Checks if password is longer than 8 characters.
 Checks if the password has at least one uppercase character.
 ## Additional Feature 2:
 Checks if the password has the word "password" in it. If it does, then it is not valid.
+
+Thank you for watching!
